@@ -12,3 +12,24 @@
         display: block;
       }
     }
+        
+    body {
+      background-color: darkolivegreen;
+    }
+
+     p {
+      color: lightgrey;
+    }
+    
+    h1{
+      color: black;
+    }
+
+     li {
+      color: lightgrey;
+    }
+
+    .responsive-image {
+      max-width: 75%;
+      height: auto;
+    }
