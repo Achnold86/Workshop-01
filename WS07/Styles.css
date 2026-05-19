@@ -1,24 +1,10 @@
-.responsive-nav .nav-list {
-      display: flex;
-      list-style: none;
-    }
-    
-    @media (max-width: 600px) {
-      .responsive-nav .nav-list {
-        display: none;
-      }
-    
-      .responsive-nav .menu-toggle {
-        display: block;
-      }
-    }
         
     body {
-      background-color: darkolivegreen;
+      background-color: olivedrab;
     }
 
      p {
-      color: lightgrey;
+      color: black;
     }
     
     h1{
@@ -26,10 +12,29 @@
     }
 
      li {
-      color: lightgrey;
+      color: black;
     }
 
     .responsive-image {
       max-width: 75%;
       height: auto;
     }
+
+    .transition-button {
+        background-color: darkolivegreen;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+    .transition-button:hover {
+        background-color: green;
+      }
+
+    .content-box {
+        padding: 20px;
+        margin: 10px;
+        background-color: lightgray;
+        border: 2px solid Black;
+      }    
